@@ -28,20 +28,20 @@ How to use:
 
 5. Check comment:
 
-      $params = [
-        'user_ip' => '127.0.0.1',
-        'user_agent' => 'User-Agent',
-        'referrer' => 'http://website.lan',
-        'permalink' => 'http://website.lan',
-        'comment_type' => 'comment',
-        'comment_author' => 'username',
-        'comment_author_email' => 'john@doe.org',
-        'comment_author_url' => 'http://website.lan',
-        'comment_content' => 'comment',
-        'blog_lang' => 'pl',
-        'blog_charset' => 'UTF-8',
-      ];
-      $isSpam = $akismet->commentCheck($params);
+        $params = [
+                'user_ip' => '127.0.0.1',
+                'user_agent' => 'User-Agent',
+                'referrer' => 'http://website.lan',
+                'permalink' => 'http://website.lan',
+                'comment_type' => 'comment',
+                'comment_author' => 'username',
+                'comment_author_email' => 'john@doe.org',
+                'comment_author_url' => 'http://website.lan',
+                'comment_content' => 'comment',
+                'blog_lang' => 'pl',
+                'blog_charset' => 'UTF-8',
+        ];
+        $isSpam = $akismet->commentCheck($params);
 
 ## It's so simple!
 
