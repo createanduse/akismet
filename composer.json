@@ -1,0 +1,25 @@
+{
+  "name": "createanduse/akismet",
+  "description": "Akismet PHP plugin",
+  "type": "library",
+  "keywords": [ "php", "akismet", "spam" ],
+  "homepage": "https://github.com/createanduse/akismet",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Łukasz Gogołkiewicz",
+      "email": "lukasz@gogolkiewicz.pl",
+      "homepage": "http://gogolkiewicz.pl",
+      "role": "developer"
+    }
+  ],
+  "support": {
+    "email": "lukasz@gogolkiewicz.pl"
+  },
+  "autoload": {
+    "psr-4": {
+      "CreateAndUse\\Akismet\\": "src"
+    }
+  }
+}
